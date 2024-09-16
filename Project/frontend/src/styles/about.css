@@ -1,0 +1,59 @@
+/* About.css */
+
+.about {
+  padding: 80px 0;
+  background-color: #f5f5f5; 
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;  
+  padding: 30px 20px;
+}
+
+.about h1 {
+  font-size: 2rem;
+  margin-bottom: 20px; 
+}
+
+.about p {
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap; /* Allow images to wrap to the next line on smaller screens */
+  justify-content: space-between; 
+}
+
+.image {
+  width: 100%; /* Take up full width on smaller screens */
+  text-align: center; 
+  margin-bottom: 20px; /* Add some spacing between images */
+}
+
+.image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.image p {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 10px; 
+}
+
+@media screen and (min-width: 600px) {
+  .image {
+      width: 48%; /* Two images side by side on screens larger than 600px */
+  }
+}
+
+/* Media Query for larger screens */
+@media screen and (min-width: 800px) {
+  .image {
+      width: 30%; /* Three images side by side on screens larger than 800px */
+  }
+}

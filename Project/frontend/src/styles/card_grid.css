@@ -1,0 +1,59 @@
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    min-width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    width: 100%; /* Make the card take 100% of the width */
+    max-width: 400px; /* Set a maximum width for better readability */
+    margin: 0 auto; /* Center the card within the grid cell */
+}
+
+.card img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card-description {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 800px) {
+    .card-grid {
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+}
