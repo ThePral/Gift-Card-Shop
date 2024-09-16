@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  api:
+    build: ./backend
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./backend/:/usr/src/backend/
+    ports:
+      - 8000:8000
+    env_file:
+      - ./.env.dev
+    depends_on:
+      - db
+  
+  web:
+    build: ./frontend
+    command: npm start
+    volumes:
+      - ./frontend/:/usr/src/frontend/
+      - /usr/src/frontend/node_modules
+    ports:
+      - 80:80
+    env_file:
+      - ./.env.dev
+    depends_on:
+      - api
+
+  db:
+    image: postgres:15
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    env_file:
+      - ./.env.dev
+    
+volumes:
+  postgres_data:
