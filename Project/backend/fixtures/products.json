@@ -1,0 +1,211 @@
+[ 
+    {
+        "model": "myapi.product",
+        "pk": 1,
+        "fields": {
+            "category": 1,
+            "name": "american express",
+            "description": "american express card",
+            "price": 5,
+            "image": "american-express.png"
+        }
+    }, 
+    {
+        "model": "myapi.product",
+        "pk": 2,
+        "fields": {
+            "category": 1,
+            "name": "american express",
+            "description": "american express card",
+            "price": 10,
+            "image": "american-express.png"
+        }
+    }, 
+    {
+        "model": "myapi.product",
+        "pk": 3,
+        "fields": {
+            "category": 1,
+            "name": "american express",
+            "description": "american express card",
+            "price": 20,
+            "image": "american-express.png"
+        }
+    }, 
+    {
+        "model": "myapi.product",
+        "pk": 4,
+        "fields": {
+            "category": 1,
+            "name": "american express",
+            "description": "american express card",
+            "price": 50,
+            "image": "american-express.png"
+        }
+    }, 
+    {
+        "model": "myapi.product",
+        "pk": 5,
+        "fields": {
+            "category": 1,
+            "name": "american express",
+            "description": "american express card",
+            "price": 100,
+            "image": "american-express.png"
+        }
+    },
+    {
+        "model": "myapi.product",
+        "pk": 6,
+        "fields": {
+            "category": 3,
+            "name": "visa",
+            "description": "visa card",
+            "price": 5,
+            "image": "visa.png"
+        }
+    }, 
+    {
+        "model": "myapi.product",
+        "pk": 7,
+        "fields": {
+            "category": 3,
+            "name": "visa",
+            "description": "visa card",
+            "price": 10,
+            "image": "visa.png"
+        }
+    }, 
+    {
+        "model": "myapi.product",
+        "pk": 8,
+        "fields": {
+            "category": 3,
+            "name": "visa",
+            "description": "visa card",
+            "price": 20,
+            "image": "visa.png"
+        }
+    }, 
+    {
+        "model": "myapi.product",
+        "pk": 9,
+        "fields": {
+            "category": 3,
+            "name": "visa",
+            "description": "visa card",
+            "price": 50,
+            "image": "visa.png"
+        }
+    }, 
+    {
+        "model": "myapi.product",
+        "pk": 10,
+        "fields": {
+            "category": 3,
+            "name": "visa",
+            "description": "visa card",
+            "price": 100,
+            "image": "visa.png"
+        }
+    },
+    {
+        "model": "myapi.product",
+        "pk": 11,
+        "fields": {
+            "category": 2,
+            "name": "steam",
+            "description": "steam gift card",
+            "price": 5,
+            "image": "steam.png"
+        }
+    }, 
+    {
+        "model": "myapi.product",
+        "pk": 12,
+        "fields": {
+            "category": 2,
+            "name": "steam",
+            "description": "steam gift card",
+            "price": 10,
+            "image": "steam.png"
+        }
+    }, 
+    {
+        "model": "myapi.product",
+        "pk": 13,
+        "fields": {
+            "category": 2,
+            "name": "steam",
+            "description": "steam gift card",
+            "price": 20,
+            "image": "steam.png"
+        }
+    }, 
+    {
+        "model": "myapi.product",
+        "pk": 14,
+        "fields": {
+            "category": 2,
+            "name": "steam",
+            "description": "steam gift card",
+            "price": 50,
+            "image": "steam.png"
+        }
+    }, 
+    {
+        "model": "myapi.product",
+        "pk": 15,
+        "fields": {
+            "category": 2,
+            "name": "steam",
+            "description": "steam gift card",
+            "price": 100,
+            "image": "steam.png"
+        }
+    },
+    {
+        "model": "myapi.product",
+        "pk": 16,
+        "fields": {
+            "category": 4,
+            "name": "spotify",
+            "description": "spotify discount card",
+            "price": 5,
+            "image": "spotify.png"
+        }
+    },
+    {
+        "model": "myapi.product",
+        "pk": 17,
+        "fields": {
+            "category": 4,
+            "name": "spotify",
+            "description": "spotify discount card",
+            "price": 10,
+            "image": "spotify.png"
+        }
+    },
+    {
+        "model": "myapi.product",
+        "pk": 18,
+        "fields": {
+            "category": 4,
+            "name": "spotify",
+            "description": "spotify discount card",
+            "price": 15,
+            "image": "spotify.png"
+        }
+    },
+    {
+        "model": "myapi.product",
+        "pk": 19,
+        "fields": {
+            "category": 4,
+            "name": "spotify",
+            "description": "spotify discount card",
+            "price": 20,
+            "image": "spotify.png"
+        }
+    }
+  ]

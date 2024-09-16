@@ -1,0 +1,42 @@
+[
+    {
+        "model": "myapi.item",
+        "pk": 1,
+        "fields": {
+            "code": "vYnrZDHAAHvchK82HVf6",
+            "product": 1
+        }
+    },
+    {
+        "model": "myapi.item",
+        "pk": 2,
+        "fields": {
+            "code": "f81RDt4K4m3BiSh1kv13",
+            "product": 1
+        }
+    },
+    {
+        "model": "myapi.item",
+        "pk": 3,
+        "fields": {
+            "code": "e8nJC45Sd2R8gksR0a7E",
+            "product": 1
+        }
+    },
+    {
+        "model": "myapi.item",
+        "pk": 4,
+        "fields": {
+            "code": "I7O4RC9x8PSDipQMcvtp",
+            "product": 7
+        }
+    },
+    {
+        "model": "myapi.item",
+        "pk": 5,
+        "fields": {
+            "code": "5Z9LDAlSBN7vV9PKyp2o",
+            "product": 7
+        }
+    }
+]

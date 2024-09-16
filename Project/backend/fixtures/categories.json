@@ -1,0 +1,39 @@
+[
+    {
+      "model": "myapi.category",
+      "pk": 1,
+      "fields": {
+        "name": "gift card",
+        "description": "gift card",
+        "image": "gift-card.png"
+      }
+    },
+    {
+      "model": "myapi.category",
+      "pk": 2,
+      "fields": {
+        "name": "game credit",
+        "description": "game credit",
+        "image": "game-card.png"
+      }
+    },
+    {
+      "model": "myapi.category",
+      "pk": 3,
+      "fields": {
+        "name": "virtual card",
+        "description": "virtual card",
+        "image": "virtual-card.png"
+      }
+    },
+    {
+      "model": "myapi.category",
+      "pk": 4,
+      "fields": {
+        "name": "discount card",
+        "description": "discount card",
+        "image": "discount-card.png"
+      }
+    }
+    
+  ]
