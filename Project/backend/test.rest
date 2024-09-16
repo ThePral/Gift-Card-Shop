@@ -1,0 +1,83 @@
+POST http://localhost:8000/register/
+Content-Type: application/json
+
+{
+    "username": "adib",
+    "password": "adib3456",
+    "email": "adib@example.com"
+}
+
+
+###
+
+
+POST http://localhost:8000/login/
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "admin1234"
+}
+
+
+###
+
+POST http://localhost:8000/test_token/
+Content-Type: application/json
+Authorization: Token a024efb4788d87e9313e84dd8c7cd9727b5f79a5
+
+{}
+
+
+###
+
+
+POST http://localhost:8000/logout/
+Content-Type: application/json
+Authorization: Token 65f7b81c4b0a1c7e5b1b4b4c93f55aa11c1af4d2
+
+{}
+
+###
+
+
+
+POST http://localhost:8000/create_admin/
+Content-Type: application/json
+Authorization: Token 7a83c1ca571b4429f1a16320cbb0417cf063cd82
+    
+{
+    "username": "admin",
+    "password": "admin1234",
+    "email": "admin@example.com"
+}
+
+
+###
+
+
+POST http://localhost:8000/create_support/
+Content-Type: application/json
+Authorization: Token a024efb4788d87e9313e84dd8c7cd9727b5f79a5
+    
+{
+    "username": "supp",
+    "password": "supp1234",
+    "email": "supp@example.com"
+}
+
+
+###
+
+
+
+GET http://localhost:8000/create_support/
+Content-Type: application/json
+Authorization: Token a024efb4788d87e9313e84dd8c7cd9727b5f79a5
+    
+{
+    "username": "supp",
+    "password": "supp1234",
+    "email": "supp@example.com"
+}
+
